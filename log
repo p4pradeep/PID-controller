@@ -1,0 +1,36 @@
+CTE: 0.7598 Steering Value: -0.7598
+42["steer",{"steering_angle":-0.7598,"throttle":0.3}]
+CTE: 0.7532 Steering Value: -0.7532
+42["steer",{"steering_angle":-0.7532,"throttle":0.3}]
+CTE: 0.6889 Steering Value: -0.6889
+42["steer",{"steering_angle":-0.6889,"throttle":0.3}]
+CTE: 0.2255 Steering Value: -0.2255
+42["steer",{"steering_angle":-0.2255,"throttle":0.3}]
+CTE: -1.0596 Steering Value: 1
+42["steer",{"steering_angle":1.0,"throttle":0.3}]
+CTE: -2.5896 Steering Value: 1
+42["steer",{"steering_angle":1.0,"throttle":0.3}]
+CTE: -1.3107 Steering Value: 1
+42["steer",{"steering_angle":1.0,"throttle":0.3}]
+CTE: 3.46 Steering Value: -1
+42["steer",{"steering_angle":-1.0,"throttle":0.3}]
+CTE: 8.1691 Steering Value: -1
+42["steer",{"steering_angle":-1.0,"throttle":0.3}]
+CTE: 11.0536 Steering Value: -1
+42["steer",{"steering_angle":-1.0,"throttle":0.3}]
+CTE: 12.9096 Steering Value: -1
+42["steer",{"steering_angle":-1.0,"throttle":0.3}]
+CTE: 11.8613 Steering Value: -1
+42["steer",{"steering_angle":-1.0,"throttle":0.3}]
+CTE: 7.5224 Steering Value: -1
+42["steer",{"steering_angle":-1.0,"throttle":0.3}]
+CTE: 7.5588 Steering Value: -1
+42["steer",{"steering_angle":-1.0,"throttle":0.3}]
+CTE: 7.5586 Steering Value: -1
+42["steer",{"steering_angle":-1.0,"throttle":0.3}]
+CTE: 7.5581 Steering Value: -1
+42["steer",{"steering_angle":-1.0,"throttle":0.3}]
+CTE: 7.5578 Steering Value: -1
+42["steer",{"steering_angle":-1.0,"throttle":0.3}]
+Segmentation fault (core dumped)
+
