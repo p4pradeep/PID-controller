@@ -28,9 +28,10 @@ void PID::UpdateError(double cte) {
 }
 
 double PID::TotalError() {
-	double steer_value = Kp*p_error+Kd*d_error+Ki*i_error;
-	if ( steer_value > 1 ) { steer_value = 1; };
-	if ( steer_value < -1 ) { steer_value = -1; };
-	return steer_value;
+	//double steer_value = Kp*p_error+Kd*d_error+Ki*i_error;
+	return Kp*p_error+Kd*d_error+Ki*i_error;
+	//if ( steer_value > 1 ) { steer_value = 1; };
+	//if ( steer_value < -1 ) { steer_value = -1; };
+	//return steer_value;
 }
 
