@@ -36,9 +36,9 @@ int main()
   PID speed_pid = PID();
 
   // TODO: Initialize the pid variable.
-  double init_Kp = -0.04;
-  double init_Ki = -0.00;
-  double init_Kd = -0;
+  double init_Kp = -2;
+  double init_Ki = -0.001;
+  double init_Kd = -12.5;
   pid.Init(init_Kp, init_Ki, init_Kd);
   speed_pid.Init(-0.1,0,0);
 
