@@ -28,6 +28,9 @@ void PID::UpdateError(double cte) {
 }
 
 double PID::TotalError() {
-	return Kp*p_error+Kd*d_error+Ki*i_error;
+	double steer = Kp*p_error+Kd*d_error+Ki*i_error;
+ 	if (steer > 1) { steer = 1; };
+	if (steer < -1) { steer = -1; };
+	return steer;
 }
 
